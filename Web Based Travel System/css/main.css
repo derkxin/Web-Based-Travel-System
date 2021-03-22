@@ -1,0 +1,226 @@
+.header {
+  overflow: hidden;
+  background-color: white;
+  padding:10px;
+}
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 2vw;
+}
+header a.title {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Caveat Brush', cursive;
+  color : darkorange;
+  text-decoration:none;
+  pointer-events: none;
+}
+.header a:hover {
+  background-color: #ddd;
+  text-decoration : none;
+  color: black;
+}
+.header-right {
+  float: right;
+  margin-right : -1%;
+}
+
+* {box-sizing: border-box}
+
+.mySlides {display: none}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+ .text {
+	color: #f2f2f2;
+	font-size: 3rem;
+	font-family:'Caveat Brush', cursive;
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 50%;
+	padding: 50px;
+	text-align: center;
+}
+@media only screen and (max-width : 800px){
+  .text {
+    color: #f2f2f2;
+  	font-size: 4vw;
+  	font-family:'Caveat Brush', cursive;
+  	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.7); /* Black w/opacity/see-through */
+  	font-weight: bold;
+  	border: 3px solid #f1f1f1;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 50%;
+  	padding: 50px;
+  	text-align: center;
+ }
+}
+
+.straightline {
+   width: 40%;
+   align: center;
+   border-bottom: 1px solid #000;
+}
+.title{
+	text-align:center;
+}
+.tablestyle{
+	margin-left:70px;
+	margin-right:70px;
+}
+/* td:hover{
+  background-color: #65646c;
+} */
+body a{
+	color:black;
+	font-family:TimesNewRoman;
+	font-size : 18px;
+	text-decoration:none;
+}
+body a:hover{
+	text-decoration:underline;
+	cursor : pointer;
+}
+body a:active{ color: blue;}
+
+.imgstyle{
+	padding:5%;
+
+}
+.imgstyle:hover{
+  background-color: #CDCFDD;
+}
+
+.gallery{
+  padding : 2%;
+  position : relative ;
+}
+.gallery:hover{
+  background-color: #CDCFDD;
+}
+
+footer{
+  text-align: center;
+  color: #848482;
+  background-color: #222;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family:sans-serif;
+  font-size: 12px;
+  width:100%;
+}
+.table{
+	width:100%;
+  /* display:table; */
+	padding-left:8%;
+	padding-right:8%;
+}
+.column1{
+  float:left;
+  font-size: 1.2vw;
+  letter-spacing: .5px;
+}
+.column2{
+  font-size: 1vw;
+  letter-spacing: .5px;
+  padding-right:100px;
+  padding-left:40px;
+}
+.column3{
+  padding-left:50px;
+}
+@media only screen and (max-width: 800px) {
+  .table{
+    padding-left:5%;
+    padding-right:5%;
+  }
+  .column1{
+    font-size: 12px;
+    color:#848482;
+  }
+  .column2{
+  font-size: 12px;
+  padding-left:40%;
+  }
+}
+footer a{
+	font-size:12px;
+	color:#848482;
+	font-family:sans-serif;
+}
+footer a:hover{
+	text-decoration : none;
+	color:#848482;
+}
+.button {
+  background-color:#696969;
+	border: none;
+	display: block;
+	width:40px;
+	height:40px;
+	cursor: pointer;
+	border-radius:50%;
+}
+.button:hover{
+  background-color: #A9A9A9;
+}
+footer img {
+	padding-top:3px;
+	width:40px;
+	height:40px;
+}
+.linebreak{
+	width: 99%;
+	border-bottom: 1px solid #000;
+}
+
